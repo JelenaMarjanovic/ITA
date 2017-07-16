@@ -1,0 +1,14 @@
+﻿USER MANUAL
+
+1. Import the project from .zip archive "Assignment04_Server" to C:\
+   Otherwise, you'll need to change line 21 at XMLSource.java class (part with absolute path)
+   /* As much as I've wanted to put a relative path, I couldn't find a solution for that. */
+2. Clean and build it.
+3. Run GlassFish Server and deploy this application at Glassfish Server (C:\Assignment04_Server\dist\Assignment04_Server.war)
+4. Import the project from .zip archive "Assignment04_Client" to C:\
+5. Run the client-side application
+
+
+NOTE
+
+Available words for translation are: bug - buba, owl - sova, wolf - vuk.
