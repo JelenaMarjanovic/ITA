@@ -1,0 +1,178 @@
+html {
+	background-image: url(../images/background.jpg);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center top;
+	background-size: cover;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	color: #240A00;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+}
+
+iframe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 0px;
+}
+
+h1 {
+	font-size: 24px;
+}
+
+a:link, 
+a:visited {
+	color:#240A00;
+	text-decoration:none;
+}
+a:hover {
+	color:#802400;
+	text-decoration:underline;
+}
+a:active {
+	color:#802400;
+	text-decoration:underline;
+}
+
+#wrapper {
+	background-color: rgba(225, 175, 150, 0.9);
+	width: 960px;
+	margin: 50px auto;
+	padding: 10px;
+	box-shadow: 0px 5px 7px rgba(0, 0, 0, 0.5);
+	border-radius: 5px;
+}
+
+#header {
+	clear: both;
+	background-color: #240A00;
+	color: #FFFFFF;
+}
+
+#header img {
+	float: left;
+	margin: 15px;
+}
+
+#header p {
+	padding: 15px;
+	margin-top: 0px;
+    margin-bottom: 10px;
+	text-align: right;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+#navigation {
+	clear: both;
+	overflow: hidden;
+	background-color: #240A00;
+}
+
+#navigation ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+#navigation ul li {
+	float: left;
+}
+
+#navigation ul li a {
+	padding: 12px 10px;
+	display: block;
+	font-size: 16px;
+}
+
+#navigation ul li a:link,
+#navigation ul li a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+#navigation ul li a:hover {
+	background-color: #802400;
+}
+
+#navigation ul li a:active {
+	color: #240A00;
+	font-weight: bold;
+	background-color: #471400;
+}
+
+#main {
+	margin: 10px 0px;
+}
+
+#main_index {
+	float: left;
+	width: 660px;
+	margin: 10px 0px;
+}
+
+#sidebar {
+	float: right;
+	width: 290px;
+	padding: 5 px;
+	margin: 10px 0px;
+	position: relative;
+}
+
+#sidebar_bio {
+	float: right;
+	width: 250px;
+	padding: 5 px;
+	margin: 10px 0px;
+	position: relative;
+	text-align: center;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#footer {
+	clear: both;
+	background-color: #080808;
+	color: #FFFFFF;
+	text-align: center;
+	padding: 10px;
+	font-size: 10px;
+}
+
+#footer p {
+	margin: 0px;
+}
+
+#current {
+	font-weight: bold;
+	background-color: #471400;
+}
+
+#info_card {
+	border-style: solid;
+	border-width: 1px;
+	border-color: #471400;
+	padding: 10px;
+}
+
+#info_card .left {
+	padding-right: 10px
+}
+
+#info_card img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#map {
+	border: 5px solid #240A00;
+	width: 680px;
+	height: 350px;
+}
