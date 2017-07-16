@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane fx:controller="controller.AddContractController" alignment="CENTER" hgap="10.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1">
+    <children>        
+        <HBox alignment="TOP_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="0">
+            <children>
+                <Label text="Ime:" />
+                <TextField fx:id="firstName" prefColumnCount="25" />
+            </children>
+        </HBox>
+        <HBox alignment="TOP_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="1">
+            <children>
+                <Label text="Prezime:" />
+                <TextField fx:id="lastName" prefColumnCount="25" />
+            </children>
+        </HBox>
+        <HBox alignment="TOP_RIGHT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="2">
+            <children>
+                <Label text="Adresa:" />
+                <TextField fx:id="address" prefColumnCount="25" />
+            </children>
+        </HBox>
+        <VBox alignment="TOP_LEFT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="3" GridPane.columnSpan="2">
+            <children>
+                <Label text="Brzina (Mbit):" />
+                <HBox alignment="TOP_LEFT" spacing="7.5">
+                    <children>
+                        <RadioButton text="2">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="speed" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton text="5" toggleGroup="$speed" />
+                        <RadioButton text="10" toggleGroup="$speed" />
+                        <RadioButton text="20" toggleGroup="$speed" />
+                        <RadioButton text="50" toggleGroup="$speed" />
+                        <RadioButton text="100" toggleGroup="$speed" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox alignment="TOP_LEFT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="4" GridPane.columnSpan="2">
+            <children>
+                <Label text="Protok:" />
+                <HBox alignment="TOP_LEFT" spacing="7.5">
+                    <children>
+                        <RadioButton text="1 GB">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="bandwidth" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton text="5 GB" toggleGroup="$bandwidth" />
+                        <RadioButton text="10 GB" toggleGroup="$bandwidth" />
+                        <RadioButton text="100 GB" toggleGroup="$bandwidth" />
+                        <RadioButton text="Flat" toggleGroup="$bandwidth" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox alignment="TOP_LEFT" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="5" GridPane.columnSpan="2">
+            <children>
+                <Label text="Trajanje ugovora (godine):" />
+                <HBox alignment="TOP_LEFT" spacing="7.5">
+                    <children>
+                        <RadioButton text="1">
+                            <toggleGroup>
+                                <ToggleGroup fx:id="duration" />
+                            </toggleGroup>
+                        </RadioButton>
+                        <RadioButton text="2" toggleGroup="$duration" />
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+        <VBox alignment="CENTER" spacing="10.0" GridPane.columnIndex="0" GridPane.rowIndex="6" GridPane.columnSpan="2">
+            <children>
+                <HBox alignment="CENTER" spacing="50.0">
+                    <children>
+                        <Button text="Dodaj" fx:id="addBtn" onAction="#addContract" />
+                        <Button text="Obrisi unos" fx:id="clearBtn" onAction="#clearData" />
+                    </children>
+                </HBox>
+                <Label text="" fx:id="addLbl" />
+            </children>
+        </VBox>
+    </children>
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0" />
+    </padding>
+</GridPane>

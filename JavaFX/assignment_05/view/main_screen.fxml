@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="controller.MainScreenController" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label text="Izaberite jednu od ponudjenih akcija" fx:id="mainLbl" />
+        <Button text="Dodaj novi ugovor" fx:id="addContract" onAction="#openAddWindow" />
+        <Button text="Prikazi sve ugovore" fx:id="showContracts" onAction="#openShowWindow" />
+        <Button text="Obrisi ugovor" fx:id="deleteContract" onAction="#openDeleteWindow" />
+    </children>
+    
+    <padding>
+        <Insets top="0.0" right="5.0" bottom="0.0" left="5.0" />
+    </padding>
+</VBox>

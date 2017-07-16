@@ -1,0 +1,60 @@
+.root {
+    -fx-background-color: #252525;
+}
+
+.label {
+    -fx-text-fill: #E1E1E1;
+}
+
+#mainLbl {
+    -fx-font-weight: bold;
+    -fx-font-size: 1.5em;    
+}
+
+#addLbl, #deleteLbl {
+    -fx-text-size: 1.5em;
+    -fx-text-fill: #E10000;
+}
+
+.text-field {
+    -fx-background-color: transparent;
+    -fx-border-color: #E1E1E1;
+    -fx-text-size: 1.25em;
+    -fx-text-fill: #E1E1E1;
+}
+
+.text-field:focused {
+    -fx-border-color: #1E90FF;
+}
+
+.text-area {
+    -fx-background-color: transparent;
+    -fx-border-color: #E1E1E1;
+    -fx-text-size: 1.25em;
+    -fx-text-fill: black;
+}
+
+.text-area:focused {
+    -fx-border-color: #1E90FF;
+}
+
+.radio-button {
+    -fx-text-fill: #E1E1E1;
+}
+
+.button {
+    -fx-background-color: transparent;
+    -fx-border-color: #E1E1E1;
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+    -fx-text-fill: #E1E1E1;
+}
+
+.button:hover {
+    -fx-border-color: #1E90FF;
+}
+
+.button:pressed {
+    -fx-border-color: #1E90FF;
+    -fx-background-color: #1E90FF;
+}

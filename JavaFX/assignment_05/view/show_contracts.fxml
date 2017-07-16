@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="controller.ShowContractsController" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1">
+    <children>        
+        <TextArea editable="false" fx:id="showTA" />
+        <Button text="Prikazi" fx:id="showBtn" onAction="#showContracts" />        
+    </children>
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0" />
+    </padding>
+</VBox>

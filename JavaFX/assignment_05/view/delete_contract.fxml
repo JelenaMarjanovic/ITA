@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:controller="controller.DeleteContractController" alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <HBox alignment="CENTER" spacing="20.0">
+            <children>
+                <Label text="Unesite ID ugovora:" />
+                <TextField fx:id="id" />
+            </children>
+        </HBox>
+        <Button text="Obrisi" fx:id="deleteBtn" onAction="#deleteContract" />
+        <Label text="" fx:id="deleteLbl" />
+    </children>
+    
+    <padding>
+        <Insets top="20.0" right="20.0" bottom="20.0" left="20.0" />
+    </padding>
+</VBox>
