@@ -1,0 +1,43 @@
+--
+-- Insert into table `categories`
+--
+INSERT INTO TABLE `categories` VALUES (
+	(NULL, 'Contemporary fiction'),
+	(NULL, 'Epic fantasy'),
+	(NULL, 'Historical fiction'),
+	(NULL, 'Horror'),
+	(NULL, 'Science fiction'),
+	(NULL, 'Thriller')
+);
+
+--
+-- Insert into table `customers`
+--
+INSERT INTO TABLE `customers` VALUES (
+	(NULL, 'Mirko Mirkovic', 'Milutina Milankovica 38, Subotica', 'mirko@mail.com', '+381631122333', 0),
+	(NULL, 'Jovana Jovanovic', 'Nikole Tesle 44/8, Leskovac', 'jovana@mail.com', '+381669987545', 0),
+	(NULL, 'Petar Petrovic', 'Zmaj Jovina 78, Novi Sad', 'petar@mail.com', '+381610557896', 0),
+	(NULL, 'Ivana Markovic', 'Kosovska 141/36, Beograd', 'ivana@mail.com', '+381646988541', 0)
+);
+
+--
+-- Insert into table `products`
+--
+INSERT INTO TABLE `products` VALUES (
+	(NULL, 'Animal Farm', 'George Orwell', '2008', 112, '9780141036137', 6.61, 'animal_farm.jpg', 100, 1),
+	(NULL, 'Dracula', 'Bram Stoker', '2000', 336, '9780486411095', 8.75, 'dracula.jpg', 100, 4),
+	(NULL, 'Fahrenheit 451', 'Ray Bradbury', '2013', 240, '9780007491568', 16.90, 'fahrenheit_451.jpg', 100, 5),
+	(NULL, 'Fight Club', 'Chuck Palahniuk', '2005', 224, '9780393327342', 12.07, 'fight_club.jpg', 100, 1),
+	(NULL, 'Foundation Trilogy', 'Isaac Asimov', '2014', 664, '9781841593326', 19.37, 'foundation_trilogy.jpg', 100, 5),
+	(NULL, 'Gates of Fire', 'Steven Pressfield', '2005', 386, '9780553383683', 17.07, 'gates_of_fire.jpg', 100, 3),
+	(NULL, 'Hitchhiker\'s Guide to the Galaxy', 'Douglas Adams', '2009', 832, '9780345453747', 22.02, 'hitchhikers_guide_to_the_galaxy.jpg', 100, 5),
+	(NULL, 'Last of Amazons', 'Steven Pressfield', '2003', 528, '9780553813869', 12.50, 'last_of_amazons.jpg', 100, 3),
+	(NULL, 'The Girl with the Dragon Tattoo', 'Stieg Larsson', '2010', 542, '9781849162883', 4.93, 'millennium_1.jpg', 100, 6),
+	(NULL, 'The Girl Who Played with Fire', 'Stieg Larsson', '2010', 876, '9781849163422', 4.93, 'millennium_2.jpg', 100, 6),
+	(NULL, 'The Girl Who Kicked the Hornets\' Nest', 'Stieg Larsson', '2010', 602, '9781849163439', 4.93, 'millennium_3.jpg', 100, 6),
+	(NULL, 'Mistborn Trilogy', 'Brandon Sanderson', '2015', 2240, '9781473213692', 40.94, 'mistborn_trilogy.jpg', 100, 2),
+	(NULL, 'Nineteen Eighty-Four', 'George Orwell', '2008', 336, '9780141036144', 7.83, 'nineteen_eighty-four.jpg', 100, 1),
+	(NULL, 'Salem\'s Lot', 'Stephen King', '2011', 653, '9780307743671', 8.88, 'salems_lot.jpg', 100, 4),
+	(NULL, 'The Dressmaker', 'Rosalie Ham', '2016', 320, '9781846689949', 9.22, 'the_dressmaker.jpg', 100, 3),
+	(NULL, 'The Lord of the Rings', 'J. R. R. Tolkien', '2008', 1664, '9780261102385', 31.71, 'the_lord_of_the_rings.jpg', 100, 2),
+);
