@@ -1,3 +1,3 @@
-# ITA
+# Java Projects
 
-Projects done while attending Java Development course at ITAcademy, during 2016 and 2017.
+Projects done in Java 7 (2016-2017)
